@@ -1,0 +1,9 @@
+[Xfce Panel]
+Name=driverwmon
+Type=X-XFCE-PanelPlugin
+Comment=mon rw stats of given drive
+Icon=drive-harddisk
+X-XFCE-Module=driverwmon
+X-XFCE-API=2.0
+X-XFCE-Internal=FALSE
+

@@ -1,0 +1,20 @@
+DRIVE RW MON XFCE PLUGIN
+Monitor current read and write speed of given disk in panel.
+
+Why does this exists?
+I found only 2 projects in this context, both had ugly code, but this was not the only problem.
+The first one was using bars instead of showing the values in bytes.
+The second one was bloated and unmaintained.
+
+How to build?
+1. Modify the macros on the top in driverwmon.c to match your preferences
+2. Install build dependencies (assuming runtime deps are already installed)
+- gcc
+- make
+- pkg-config
+- libxfce4panel-2.0
+3. CD to repo root
+4. $ make
+5. as root: $ make install
+To uninstall: as root: $ make uninstall
+
